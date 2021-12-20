@@ -1,10 +1,9 @@
 /* nav specialized to landing page */
 .logo {
-  background: url('logo.png') no-repeat;
+  background: url('logo.e') no-repeat;
   background-size: contain;
-  min-height: 200px;
-  min-width: 200px;
-  margin: 2rem 0 0 2rem;
+  min-height: 1px;
+  min-width: 1px;
 }
 
 nav {
@@ -15,12 +14,12 @@ nav {
 .hero {
   text-align: center;
   background-color: var(--bg-color);
-  padding: 2rem 0 10rem 0;
+  padding: 2rem 0 11rem 0;
 }
 
 .hero__title {
   font-weight: 900;
-  margin: -11rem auto 2rem auto;
+  margin: -8rem auto 2rem auto;
   color: var(--primary-color);
 }
 
