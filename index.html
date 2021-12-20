@@ -1,5 +1,120 @@
+<!doctype html>
 <html>
-    <head>
-        <h1>Hello World </h1>
-    </head>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Julhiano - CV </title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="scribbler-global.css">
+      <link rel="stylesheet" href="scribbler-landing.css">
+      <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="https://www.linkedin.com/in/julhiano-glanert-de-castro-593635104/" class="link link--dark"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+        <li class="menu__item"><a href="https://github.com/Jubagcastro" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="hero__title">Julhiano Glanert de Castro</h1>
+      <p class="hero__description">Analista DevOps</p>
+    </div>
+    <div class="hero__terminal">
+      <pre>
+        <code class="shell-session demo">internauta ~ $ </code>
+      </pre>
+    </div>
+    <div class="wrapper">
+      <div class="installation">
+        <h3 class="section__title">CurriculumVitae.yaml</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <li class="tab active" data-tab="personal">Pessoal</li>
+            <li class="tab" data-tab="professional">Profissional</li>
+            <li class="tab" data-tab="educational">Educacional</li>
+          </ul>
+          <pre class="nohighlight codeyaml">
+            <code class="tab__pane active personal">
+				dadosPessoais:<br>  
+				<div style="margin-left: 1em;">
+					nome: "Julhiano Glanert de Castro"<br>  idade: 28
+					nascimento: 25-11-1993<br>
+					email: "julhiano.castro@hotmail.com"<br>
+					telefone: "+55 (47) 9-9642-8862"<br>
+					localização:<br>
+					<div style="margin-left: 1em;">
+					- estado: "Santa Catarina"<br>
+						<div style="margin-left: 1em;">
+							cidade: "Brusque"<br>
+							rua: "Guilhermina Regina Deichmann"<br>
+							numero: "200 - bloco 2, apto 712"
+						</div>
+					</div>
+				</div>
+			</code>
+            <code class="tab__pane professional">
+			profissional:<br>
+			<div style="margin-left: 1em;">
+			- empresa: "DiskInfo - Informática"<br>
+			<div style="margin-left: 1em;">
+			- cargo: "Técnico em Informática"<br>
+			<div style="margin-left: 1em;">
+			de: 2012<br>
+			ate: 2013<br>
+			</div>
+			</div>
+			- empresa: "Centro Universitário de Brusque - UNIFEBE"<br>
+			<div style="margin-left: 1em;">
+			- cargo: "Analista de Sistemas"<br>
+			<div style="margin-left: 1em;">
+			de: 05-2014<br>
+			ate: 11-2019<br>
+			</div>
+			</div>
+			- empresa: "HAVAN S/A"<br>
+			<div style="margin-left: 1em;">
+			- cargo: "Desenvolvedor SR"<br>
+			<div style="margin-left: 1em;">
+			de: 11-2019<br>
+			ate: 04-2021<br>
+			</div>
+			</div>
+			<div style="margin-left: 1em;">
+			- cargo: "Tech Lead Analista de DevOps"<br>
+			<div style="margin-left: 1em;">
+			de: 04-2021<br>
+			ate: "Presente"<br>
+			</div>
+			</div>
+			</div>
+			</code>
+            <code class="tab__pane educational">
+			formacao:<br>
+			<div style="margin-left: 1em;">
+				- instituicao: "Intistuto Federal Catarinense - Campus Camboriú"<br>
+				<div style="margin-left: 1em;">
+					nivel: "Técnico em informática"<br>
+					conclusao: "12/2010"<br>
+				</div>
+				- instituicao: "Centro Universitário de Brusque"<br>
+				<div style="margin-left: 1em;">
+					nivel: "Bacharel em Sistemas de informação"<br>
+					conclusao: "prevista 07/2022"<br>
+				</div>
+			</div>	
+			</code>
+          </pre>
+        </div>
+      </div>
+	</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scribbler.js"></script>
+  </body>
 </html>
