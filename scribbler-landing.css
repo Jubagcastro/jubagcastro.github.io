@@ -10,6 +10,20 @@ nav {
   background-color: var(--bg-color);
 }
 
+.padding {
+  color: var(--bg-color);
+  background-color: var(--bg-color);
+  text-align: center;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+}
+.pp {
+  width:auto;
+  height:auto;  
+  max-width:280px;
+  max-height:280px;
+}
+
 /* hero section */
 .hero {
   text-align: center;
@@ -19,7 +33,7 @@ nav {
 
 .hero__title {
   font-weight: 900;
-  margin: -8rem auto 2rem auto;
+  margin: auto auto 2rem auto;
   color: var(--primary-color);
 }
 
