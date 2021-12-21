@@ -1,6 +1,6 @@
 /* nav specialized to landing page */
 .logo {
-  background: url('logo.e') no-repeat;
+  background: url('') no-repeat;
   background-size: contain;
   min-height: 1px;
   min-width: 1px;
@@ -15,13 +15,13 @@ nav {
   background-color: var(--bg-color);
   text-align: center;
   margin: auto;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
 }
 .pp {
   width:auto;
   height:auto;  
-  max-width:250px;
-  max-height:250px;
+  max-width:220px;
+  max-height:220px;
 }
 
 /* hero section */
