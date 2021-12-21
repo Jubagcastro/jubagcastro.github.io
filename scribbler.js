@@ -14,13 +14,13 @@ if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `jubagcastro.sh
             [Bem vindo ao Currículo Vitae de Julhiano Glanert de Castro]
-			[Pressione Ctrl+D para adicionar essa página aos seus fávoritos]
+	    [Para adicionar essa página aos seus fávoritos pressione Ctrl+D]
 
             Mini-Bio de Julhiano:
 			- Tech-Lead Analista DevOps
-			- Aficcionado por tecnologia
+			- Aficionado por tecnologia
 			- Desenvolvedor por profissão
-			- Infra por curiosidade
+			- Infra por gosto
 			- Scrum por agilidade
 			- DevOps por paixão`;
   var speed = 15;
