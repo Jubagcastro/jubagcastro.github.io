@@ -14,7 +14,7 @@ if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `jubagcastro.sh
             [Bem vindo ao Currículo Vitae de Julhiano Glanert de Castro]
-	    [Para adicionar essa página aos seus fávoritos pressione Ctrl+D]
+	    [Para adicionar essa página aos seus favoritos pressione Ctrl+D]
 
             Mini-Bio de Julhiano:
 			- Tech-Lead SRE - Arquiteto de Sistemas
