@@ -17,7 +17,7 @@ if (document.getElementsByClassName('demo').length > 0) {
 	    [Para adicionar essa página aos seus fávoritos pressione Ctrl+D]
 
             Mini-Bio de Julhiano:
-			- Tech-Lead Analista DevOps
+			- Tech-Lead SRE - Arquiteto de Sistemas
 			- Aficionado por tecnologia
 			- Desenvolvedor por profissão
 			- Infra por gosto
